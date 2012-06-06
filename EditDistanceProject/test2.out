@@ -1,0 +1,59 @@
+Best cost is: 16
+
+Copy used 8 times.
+Ins1 used 11 times.
+Ins2 used 14 times.
+Ins3 used 21 times.
+Del1 used 14 times.
+Del2 used 22 times.
+Del3 used 47 times.
+Repl used 4 times.
+Prm2 used 2 times.
+Prm3 used 1 times.
+ChBl used 2 times.
+ChCs used 3 times.
+
+Edits are:
+Convert case from 't' to 'T'
+Insert 'HE '
+Copy 'E' unchanged
+Copy 'N' unchanged
+Delete 3 chars
+Copy 'D' unchanged
+Delete 3 chars
+
+                         (T)                  (H)                  (E)                  ( )                  (E)                  (N)                  (D)                  
+
+    0                    6                    6                    6                    12                   12                   12                   18                   
+                         Ins1                 Ins2                 Ins3                 Ins1,Ins2,Ins3       Ins2,Ins3            Ins3                 Ins1,Ins2,Ins3       
+
+(t) 3                    1                    7                    7                    7                    13                   13                   13                   
+    Del1                 ChCs                 Ins1                 Ins2                 Ins3                 Ins1,Ins2,Ins3       Ins2,Ins3            Ins3                 
+
+(E) 3                    4                    8                    8                    10                   8                    14                   14                   
+    Del2                 Del1                 Repl                 Copy                 Ins3,Del1            Copy                 Ins1,Ins3            Ins2                 
+
+(N) 3                    4                    9                    9                    10                   11                   9                    15                   
+    Del3                 Del2                 Ins2,Del3            Ins3,Del3            Ins3,Del2            Del1                 Copy,Prm2            Ins1                 
+
+( ) 6                    4                    10                   10                   10                   11                   10                   16                   
+    Del1,Del2,Del3       Del3                 Ins1,Del3            Ins2,Del3            Copy,Ins3,Del3       Del2                 Prm3                 Ins1,Ins3,Del3,Repl  
+
+( ) 6                    7                    11                   11                   10                   11                   12                   16                   
+    Del2,Del3            Del1,Del2,Del3       Del3,Repl            Del3                 ChBl                 Del3                 Del2                 Ins3                 
+
+( ) 6                    7                    12                   12                   10                   14                   12                   16                   
+    Del3                 Del2,Del3            Ins2,Del3            Ins3,Del3            ChBl                 Del1,Del2,Del3       Del3                 Ins3                 
+
+(D) 9                    7                    13                   13                   13                   14                   13                   13                   
+    Del1,Del2,Del3       Del3                 Ins1,Del3            Ins2,Del3            Ins3,Del1,Del2,Del3  Del2,Del3            Del3                 Copy                 
+
+(e) 9                    10                   14                   14                   13                   14                   15                   16                   
+    Del2,Del3            Del1,Del2,Del3       Del3,Repl            Del3,ChCs            Del2,Del3            Del3,ChCs            Del2,Del3            Del1                 
+
+(E) 9                    10                   15                   15                   13                   14                   15                   16                   
+    Del3                 Del2,Del3            Ins2,Del3            Copy,Ins3,Del3       Del3                 Copy                 Del3                 Del2                 
+
+(N) 12                   10                   16                   16                   16                   17                   15                   16                   
+    Del1,Del2,Del3       Del3                 Ins1,Del3            Ins2,Del3            Ins3,Del1,Del2,Del3  Del1,Del2,Del3       Copy,Prm2            Del3                 
+

@@ -1,0 +1,66 @@
+Best cost is: 15
+
+Copy used 0 times.
+Ins1 used 0 times.
+Ins2 used 0 times.
+Ins3 used 0 times.
+Del1 used 5 times.
+Del2 used 8 times.
+Del3 used 11 times.
+Repl used 0 times.
+Prm2 used 0 times.
+Prm3 used 0 times.
+ChBl used 0 times.
+ChCs used 0 times.
+
+Edits are:
+Delete 3 chars
+Delete 3 chars
+Delete 3 chars
+Delete 3 chars
+Delete 1 chars
+
+                    
+
+    0               
+                    
+
+( ) 3               
+    Del1            
+
+( ) 3               
+    Del2            
+
+( ) 3               
+    Del3            
+
+( ) 6               
+    Del1,Del2,Del3  
+
+( ) 6               
+    Del2,Del3       
+
+( ) 6               
+    Del3            
+
+( ) 9               
+    Del1,Del2,Del3  
+
+( ) 9               
+    Del2,Del3       
+
+( ) 9               
+    Del3            
+
+( ) 12              
+    Del1,Del2,Del3  
+
+( ) 12              
+    Del2,Del3       
+
+( ) 12              
+    Del3            
+
+( ) 15              
+    Del1,Del2,Del3  
+

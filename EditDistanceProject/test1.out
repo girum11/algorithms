@@ -1,0 +1,37 @@
+Best cost is: 10
+
+Copy used 0 times.
+Ins1 used 6 times.
+Ins2 used 7 times.
+Ins3 used 6 times.
+Del1 used 4 times.
+Del2 used 6 times.
+Del3 used 9 times.
+Repl used 4 times.
+Prm2 used 0 times.
+Prm3 used 0 times.
+ChBl used 0 times.
+ChCs used 2 times.
+
+Edits are:
+Delete 3 chars
+Insert 'GOL'
+Convert case from 'd' to 'D'
+
+                         (G)                  (O)                  (L)                  (D)                  
+
+    0                    6                    6                    6                    12                   
+                         Ins1                 Ins2                 Ins3                 Ins1,Ins2,Ins3       
+
+(l) 3                    7                    9                    7                    13                   
+    Del1                 Repl                 Ins2,Del1            ChCs                 Ins1,Ins3,Repl       
+
+(e) 3                    9                    9                    9                    14                   
+    Del2                 Ins1,Del2            Ins2,Del2            Ins3,Del2            Repl                 
+
+(a) 3                    9                    9                    9                    15                   
+    Del3                 Ins1,Del3            Ins2,Del3            Ins3,Del3            Ins1,Ins2,Ins3,Del3  
+
+(d) 6                    10                   12                   10                   10                   
+    Del1,Del2,Del3       Del3,Repl            Ins2,Del1,Del2,Del3  Del3                 ChCs                 
+

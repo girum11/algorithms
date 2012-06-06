@@ -1,0 +1,71 @@
+Best cost is: 1
+
+Copy used 1 times.
+Ins1 used 1 times.
+Ins2 used 0 times.
+Ins3 used 0 times.
+Del1 used 6 times.
+Del2 used 10 times.
+Del3 used 14 times.
+Repl used 0 times.
+Prm2 used 0 times.
+Prm3 used 0 times.
+ChBl used 15 times.
+ChCs used 0 times.
+
+Edits are:
+Convert 16 blanks to 1 blanks
+
+                    ( )             
+
+    0               6               
+                    Ins1            
+
+( ) 3               1               
+    Del1            Copy            
+
+( ) 3               1               
+    Del2            ChBl            
+
+( ) 3               1               
+    Del3            ChBl            
+
+( ) 6               1               
+    Del1,Del2,Del3  ChBl            
+
+( ) 6               1               
+    Del2,Del3       ChBl            
+
+( ) 6               1               
+    Del3            ChBl            
+
+( ) 9               1               
+    Del1,Del2,Del3  ChBl            
+
+( ) 9               1               
+    Del2,Del3       ChBl            
+
+( ) 9               1               
+    Del3            ChBl            
+
+( ) 12              1               
+    Del1,Del2,Del3  ChBl            
+
+( ) 12              1               
+    Del2,Del3       ChBl            
+
+( ) 12              1               
+    Del3            ChBl            
+
+( ) 15              1               
+    Del1,Del2,Del3  ChBl            
+
+( ) 15              1               
+    Del2,Del3       ChBl            
+
+( ) 15              1               
+    Del3            ChBl            
+
+( ) 18              1               
+    Del1,Del2,Del3  ChBl            
+

@@ -1,0 +1,58 @@
+
+TO STUDY FOR THE FINAL:
+
+Redo In-Lecture Questions
+Go over all LMQs
+Finish amassing all the vocab questions
+Be able to fix code that he supplies (very closely related to code from class)
+
+
+
+NOTES FOR MYSELF
+
+ - Figuring out the number of COMBINATIONS is usually a choice ^ #ofchoices problem.
+
+ - Figuring out the number of SUBSETS is probably going to be a 2^n answer, since you have
+    n choices of yes/no on including each activity.
+
+ - Figuring out the number of PERMUTATIONS is usually a factorial problem.
+
+ - .707^2 == .5
+
+ - Remember that dynamic programs always have a table of "steps" or "choices", that continually
+    revises its previous optimum choices as it steps to the final answer, leaving BREADCRUMBS
+    as it goes.  The final solution is then calculated *backwards* from the breadcrumbs.
+
+ - When analyzing an order of complexity on a new algorithm, it's always best to see 
+    what would happen if you played with the input size, say, for example, what would happen to
+    how long the program would take to run if you doubled** the input.
+
+ - The least common subset problem is described by a recursive tree of subsolutions - if the last
+    two letters are different from each other, then you *know* that one or the other letter can't
+    be in the LCS.  Thus, the two branches of that node will be each case of that -- either keep
+    the top letter or keep the bottom letter.  Making a table is just like the edit distance
+    table, except the only "operation" is going up & right for a common letter.  DON'T FORGET
+    THE ZERO ROW AND ZERO COLUMN FOR S1 AND S2!!
+
+ - The simplex algorithm applies to linear programming and is the most common linear programming
+    algorithm in use today.  That's the one where you set up a constraints at the top (x, y, and
+    then a constraint column for each constraint actually given), the equations in the middle,
+    and the objective function at the end.  Pick pivots accordingly.
+
+ - How many different anagrams can you make of a word with 15 distinct lowercase letters 
+    if you keep the first two letters and last two letters together, with each pair remaining 
+    together in the same, order, wherever they end up?  THE ANSWER IS (13!).
+
+
+
+REDO THESE IN-LECTURE QUESTIONS:
+
+Choose Combinations, question 6
+NP-completeness problems, all of them**
+
+
+REDO THESE LMQs:
+
+LMQ Sequence Combinations, question 2
+LMQ Choose Combinations, question 1
+Combinations Lab, Problem 1

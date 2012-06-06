@@ -1,0 +1,26 @@
+Best cost is: 1
+
+Copy used 1 times.
+Ins1 used 8 times.
+Ins2 used 15 times.
+Ins3 used 22 times.
+Del1 used 1 times.
+Del2 used 0 times.
+Del3 used 0 times.
+Repl used 0 times.
+Prm2 used 0 times.
+Prm3 used 0 times.
+ChBl used 23 times.
+ChCs used 0 times.
+
+Edits are:
+Convert 1 blanks to 24 blanks
+
+                    ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             ( )             
+
+    0               6               6               6               12              12              12              18              18              18              24              24              24              30              30              30              36              36              36              42              42              42              48              48              48              
+                    Ins1            Ins2            Ins3            Ins1,Ins2,Ins3  Ins2,Ins3       Ins3            Ins1,Ins2,Ins3  Ins2,Ins3       Ins3            Ins1,Ins2,Ins3  Ins2,Ins3       Ins3            Ins1,Ins2,Ins3  Ins2,Ins3       Ins3            Ins1,Ins2,Ins3  Ins2,Ins3       Ins3            Ins1,Ins2,Ins3  Ins2,Ins3       Ins3            Ins1,Ins2,Ins3  Ins2,Ins3       Ins3            
+
+( ) 3               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               1               
+    Del1            Copy            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            ChBl            
+
