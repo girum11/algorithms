@@ -1,4 +1,4 @@
-Java Algorithms: CPE 349
+Algorithms
 =================================
 
 A sample of some of the conceptually tougher code I've written.  Algorithms include:
